@@ -10,6 +10,7 @@ export 'src/city.dart';
 
 Map _zipCodeJson;
 
+/// Find a [List<City>] corresponding to the [zipCode]
 Future<List<City>> find(String zipCode) async {
   if (_zipCodeJson == null) {
     _zipCodeJson = await getZipCodes();

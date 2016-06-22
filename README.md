@@ -9,12 +9,16 @@ Based on the [official postal codes database](https://www.data.gouv.fr/fr/datase
 ```dart
 import 'package:code_postaux/code_postaux_html.dart';
 
-List<City> cities = await find("31000"); // a list of cities corresponding to zip code 31000
+main() async {
+  List<City> cities = await find("31000"); // a list of cities corresponding to zip code 31000
+}
 ```
 
 ## Usage in the vm
 ```dart
 import 'package:code_postaux/code_postaux_io.dart';
 
-List<City> cities = await find("31000"); // a list of cities corresponding to zip code 31000
+main() async {
+  List<City> cities = await find("31000"); // a list of cities corresponding to zip code 31000
+}
 ```
