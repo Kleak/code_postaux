@@ -1,3 +1,6 @@
+// Copyright (c) 2016, Kevin Segaud. All rights reserved. Use of this source code
+// is governed by a BSD-style license that can be found in the LICENSE file.
+
 @TestOn("browser")
 import 'package:code_postaux/src/html.dart';
 import 'package:code_postaux/code_postaux_html.dart';
