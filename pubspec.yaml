@@ -1,6 +1,6 @@
 name: code_postaux
 description: Search french city name and INSEE code by zip code.
-version: 0.0.1
+version: 0.0.2
 author: Kevin Segaud <segaud.kevin@gmail.com>
 homepage: https://github.com/Kleak/code_postaux
 
