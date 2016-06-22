@@ -12,7 +12,7 @@ import 'package:code_postaux/code_postaux_html.dart';
 List<City> cities = await find("31000"); // a list of cities corresponding to zip code 31000
 ```
 
-## Usage the vm
+## Usage in the vm
 ```dart
 import 'package:code_postaux/code_postaux_io.dart';
 
