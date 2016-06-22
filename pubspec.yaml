@@ -1,0 +1,14 @@
+name: code_postaux
+description: Librairie contenant les code postaux des villes ainsi que leur code insee
+version: 0.0.1
+author: Kevin Segaud <segaud.kevin@gmail.com>
+#homepage: https://www.example.com
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+dependencies:
+ http: 0.11.3+7
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'

@@ -1,0 +1,15 @@
+@TestOn("vm")
+import 'package:code_postaux/code_postaux_io.dart';
+import 'package:test/test.dart';
+
+main() {
+  group('vm', () {
+    test('find io', () async {
+      List<City> city = await find("31000");
+      expect(city.first.zipCode, "31000");
+      expect(city.first.cityName, "TOULOUSE");
+      expect(city.first.inseeCode, "31555");
+      expect(city.first.label, "TOULOUSE");
+    });
+  });
+}
